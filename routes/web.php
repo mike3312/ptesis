@@ -21,3 +21,5 @@ route::get('/links', function(){
 
 route::resource('link', 'tesisController');
 route::get('/link2', function(){	return'hola mundo';});
+route::get('/link3', function(){	return'hola mundo';});
+route::get('/link4', function(){	return'hola mundo';});
